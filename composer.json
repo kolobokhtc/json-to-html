@@ -1,0 +1,21 @@
+{
+  "name": "eng210/json-to-html",
+  "authors": [
+    {
+      "name": "Vladimir Pavlov",
+      "email": "kolobokhtc@gmail.com"
+    }
+  ],
+  "autoload":{
+    "psr-4": {"JsonToHtml\\": "src/"}
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/bobthecow/mustache.php"
+    }
+  ],
+  "require": {
+    "mustache/mustache": "dev-master"
+  }
+}
